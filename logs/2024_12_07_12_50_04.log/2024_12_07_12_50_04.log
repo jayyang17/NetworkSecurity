@@ -1,0 +1,15 @@
+[ 2024-12-07 12:50:07,521 ] 18 root - INFO - Initiate the data ingestion
+[ 2024-12-07 12:50:09,439 ] 39 root - INFO - df from mongo db shape: (11055, 32)
+[ 2024-12-07 12:50:09,506 ] 64 root - INFO - DataFrame shape: (11055, 31)
+[ 2024-12-07 12:50:09,511 ] 70 root - INFO - Train set shape: (8844, 31)
+[ 2024-12-07 12:50:09,511 ] 71 root - INFO - Test set shape: (2211, 31)
+[ 2024-12-07 12:50:09,512 ] 76 root - INFO - Directory path created: Artifacts\07_12_2024_12_50_05\data_ingestion\ingested
+[ 2024-12-07 12:50:09,512 ] 79 root - INFO - Exporting train and test datasets to CSV.
+[ 2024-12-07 12:50:09,560 ] 86 root - INFO - Exported train and test datasets successfully.
+[ 2024-12-07 12:50:09,561 ] 20 root - INFO - Data Initiation Completed
+[ 2024-12-07 12:50:09,561 ] 24 root - INFO - Initiate the data validation
+[ 2024-12-07 12:50:09,623 ] 36 root - INFO - Required number of columns: 2
+[ 2024-12-07 12:50:09,624 ] 37 root - INFO - Data frame has columns: 31
+[ 2024-12-07 12:50:09,624 ] 36 root - INFO - Required number of columns: 2
+[ 2024-12-07 12:50:09,624 ] 37 root - INFO - Data frame has columns: 31
+[ 2024-12-07 12:50:09,771 ] 28 root - INFO - Data Validation Completed
