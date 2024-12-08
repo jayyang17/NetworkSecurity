@@ -1,0 +1,28 @@
+[ 2024-12-08 11:05:12,869 ] 25 root - INFO - Initiate the data ingestion
+[ 2024-12-08 11:05:15,489 ] 39 root - INFO - df from mongo db shape: (11055, 32)
+[ 2024-12-08 11:05:15,553 ] 64 root - INFO - DataFrame shape: (11055, 31)
+[ 2024-12-08 11:05:15,556 ] 70 root - INFO - Train set shape: (8844, 31)
+[ 2024-12-08 11:05:15,556 ] 71 root - INFO - Test set shape: (2211, 31)
+[ 2024-12-08 11:05:15,557 ] 76 root - INFO - Directory path created: Artifacts\08_12_2024_11_05_09\data_ingestion\ingested
+[ 2024-12-08 11:05:15,557 ] 79 root - INFO - Exporting train and test datasets to CSV.
+[ 2024-12-08 11:05:15,606 ] 86 root - INFO - Exported train and test datasets successfully.
+[ 2024-12-08 11:05:15,606 ] 27 root - INFO - Data Initiation Completed
+[ 2024-12-08 11:05:15,607 ] 31 root - INFO - Initiate the data validation
+[ 2024-12-08 11:05:15,671 ] 36 root - INFO - Required number of columns: 2
+[ 2024-12-08 11:05:15,671 ] 37 root - INFO - Data frame has columns: 31
+[ 2024-12-08 11:05:15,671 ] 36 root - INFO - Required number of columns: 2
+[ 2024-12-08 11:05:15,671 ] 37 root - INFO - Data frame has columns: 31
+[ 2024-12-08 11:05:15,800 ] 35 root - INFO - Data Validation Completed
+[ 2024-12-08 11:05:15,800 ] 39 root - INFO - Initiate the data transformation
+[ 2024-12-08 11:05:15,801 ] 58 root - INFO - Starting Data Transformation
+[ 2024-12-08 11:05:15,826 ] 44 root - INFO - Entered get_data_transformer_object method of Transformation class
+[ 2024-12-08 11:05:15,826 ] 49 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-12-08 11:05:15,842 ] 57 root - INFO - Entered the save_object mthod of MainUtils class
+[ 2024-12-08 11:05:15,846 ] 61 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-12-08 11:05:15,848 ] 43 root - INFO - Data Transformation Completed
+[ 2024-12-08 11:05:15,849 ] 47 root - INFO - Model Training started
+[ 2024-12-08 11:08:44,221 ] 106 root - INFO - best model is RandomForestClassifier(n_estimators=128, verbose=1)
+[ 2024-12-08 11:08:58,333 ] 57 root - INFO - Entered the save_object mthod of MainUtils class
+[ 2024-12-08 11:08:58,368 ] 61 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-12-08 11:08:58,369 ] 133 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\08_12_2024_11_05_09\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.9918420787591903), precision_score=np.float64(0.9895498392282959), recall_score=np.float64(0.9941449626488996)), test_metric_artifact=ClassificationMetricArtifact(f1_score=np.float64(0.973305954825462), precision_score=np.float64(0.9626320064987814), recall_score=np.float64(0.9842192691029901)))
+[ 2024-12-08 11:08:58,372 ] 52 root - INFO - Model Training artifact created
