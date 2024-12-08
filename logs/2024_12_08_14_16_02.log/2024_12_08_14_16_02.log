@@ -1,6 +1,0 @@
-[ 2024-12-08 14:16:06,858 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2024-12-08 14:16:06,863 ] 107 dagshub - INFO - Accessing as jayyang93
-[ 2024-12-08 14:16:07,438 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/jayyang93/NetworkSecurity "HTTP/1.1 200 OK"
-[ 2024-12-08 14:16:08,014 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2024-12-08 14:16:08,016 ] 107 dagshub - INFO - Initialized MLflow to track repo "jayyang93/NetworkSecurity"
-[ 2024-12-08 14:16:08,017 ] 107 dagshub - INFO - Repository jayyang93/NetworkSecurity initialized!
