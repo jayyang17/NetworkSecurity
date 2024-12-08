@@ -53,7 +53,7 @@ jobs:
           IMAGE_TAG: latest
         run: |
           # Build a docker image
-          docker build -t $ECR_REPOSITORY:$IMAGE_TAG .
+          docker build -f DockerFile -t $ECR_REPOSITORY:$IMAGE_TAG .
 
           # Tag the image with the ECR registry
           docker tag $ECR_REPOSITORY:$IMAGE_TAG $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
